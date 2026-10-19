@@ -30,6 +30,11 @@ export const routes = {
   download: "/download",
   tasks: "/tasks",
 
+  // CodeRev routes
+  coderev: {
+    index: "/",
+  },
+
   checkoutSuccess: "/checkout/success",
 
   // CMS routes
@@ -94,6 +99,9 @@ export const routes = {
     activityStream: "/api/activity/stream",
     logger: "/v1",
     docsSearch: "/api/docs/search",
+    coderev: {
+      analyze: "/api/coderev/analyze",
+    },
     github: {
       checkInvitation: "/api/github/check-invitation",
       checkRepoAvailability: "/api/github/check-repo-availability",
