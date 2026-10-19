@@ -90,6 +90,7 @@
     "audit:triage": "bun audit --json > /tmp/shipkit-audit.json 2>/dev/null; node scripts/supply-chain/triage.mjs /tmp/shipkit-audit.json ."
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.69",
     "@auth/drizzle-adapter": "1.11.3",
     "@aws-sdk/client-s3": "^3.1131.0",
     "@aws-sdk/s3-request-presigner": "^3.1131.0",
@@ -185,6 +186,7 @@
     "@webcontainer/api": "^1.6.4",
     "@xterm/addon-fit": "^0.11.0",
     "@xterm/xterm": "^6.0.0",
+    "ai": "^6.0.159",
     "ansi-escape-sequences": "^6.2.4",
     "ansi-to-html": "^0.7.2",
     "ansi-to-react": "^6.2.6",
@@ -237,6 +239,7 @@
     "radix-ui": "^1.6.7",
     "react": "19.2.4",
     "react-day-picker": "9.13.2",
+    "react-diff-viewer-continued": "^4.2.0",
     "react-dom": "19.2.4",
     "react-dropzone": "^15.0.0",
     "react-error-boundary": "^6.1.5",

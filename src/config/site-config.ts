@@ -186,17 +186,17 @@ export const siteConfig: SiteConfig = {
     pageTransitions: true,
   },
 
-  name: "Shipkit",
-  title: "Shipkit",
-  tagline: "Launch your app at light speed.",
-  url: "https://shipkit.io",
+  name: "CodeRev",
+  title: "CodeRev",
+  tagline: "AI-powered code review for humans.",
+  url: "https://coderev.dev",
   ogImage: "/app/og-image.png",
   description:
-    "Launch your app at light speed. Fast, flexible, and feature-packed for the modern web.",
+    "AI-powered code review that scores, explains, and prioritizes PR changes so you can review faster.",
 
   branding: {
-    projectName: "Shipkit",
-    projectSlug: "shipkit",
+    projectName: "CodeRev",
+    projectSlug: "coderev",
     productNames: {
       bones: "Bones",
       brains: "Brains",
